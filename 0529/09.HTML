@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       * {
+            margin: 0;
+            padding: 0;
+       }
+
+       body{
+            width: 90px;
+            margin: 0 auto;
+            overflow: hidden;
+       }
+
+       #menu{
+            width: 260px;
+            float: left;
+       }
+
+       #section{
+            width: 700px;
+            float: right;
+       }
+
+       li{
+            list-style: none;
+       }
+
+    /*소형 디바이스인 경우 스타일*/
+    @media screen and (max-width:767px){
+        body{
+            width: auto;
+        }
+
+        #menu{
+            width: auto;
+            float: none;
+        }
+
+        #section{
+            width: auto;
+            float: none;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div id="menu">
+        <ul>
+            <li>Menu 1</li>
+            <li>Menu 2</li>
+            <li>Menu 3</li>
+        </ul>
+    </div>
+    <div id="section">
+        <h1>반응형 웹 패턴 1(메뉴가)</h1>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt magni vel, eligendi aliquam voluptas possimus eos! Odit ipsa, non explicabo iusto labore, repudiandae, sed omnis minus cumque distinctio atque? Dolore?
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati et totam temporibus, ipsa nemo error ipsum, alias non porro maxime, soluta dolore neque maiores! Mollitia, voluptatem? Praesentium consequatur perspiciatis eligendi.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolorum mollitia error est iste dolore amet, quos eveniet fugiat officiis ex molestias tempora soluta nisi facilis modi dolorem pariatur nam.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus hic vel eligendi rerum, dolores itaque voluptatum debitis quam sequi a dolorum, excepturi neque nisi facilis? Fugit quibusdam dolorem iusto et.
+        </p>
+    </div>
+</body>
+</html>
